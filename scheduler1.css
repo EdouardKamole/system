@@ -1,0 +1,26 @@
+/* Add styles for the Schedule section if needed */
+
+.schedule-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-section h2 {
+    color: #c8102e;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

@@ -1,0 +1,17 @@
+/* Add styles for the Home section if needed */
+
+.home-section {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-section h2 {
+    color: #c8102e;
+}
+
+.home-section p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}

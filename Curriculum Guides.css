@@ -1,0 +1,39 @@
+/* Styling for Curriculum Guides */
+.curriculum-guides {
+    margin-top: 30px;
+}
+
+.curriculum-guides h2 {
+    color: #A51C30;
+}
+
+.guide-item {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
+
+.guide-details {
+    margin-left: 20px;
+}
+
+.guide-details h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.guide-details p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.guide-details a {
+    color: #A51C30;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.guide-details a:hover {
+    color: #871B35;
+}

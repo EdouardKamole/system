@@ -1,0 +1,14 @@
+/* Styling for Upcoming Events */
+.upcoming-events {
+    margin-top: 30px;
+}
+
+.upcoming-events h3 {
+    color: #A51C30;
+}
+
+.upcoming-events p {
+    margin-bottom: 10px;
+}
+
+/* ... (remaining CSS code) ... */

@@ -1,0 +1,52 @@
+/* ... (previous CSS code) ... */
+
+.join-us {
+    padding: 2em;
+    text-align: justify;
+}
+
+.join-us form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.join-us label {
+    display: block;
+    margin-bottom: 8px;
+    color: #A51C30;
+}
+
+.join-us input,
+.join-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.join-us textarea {
+    resize: vertical;
+}
+
+.join-us button {
+    padding: 12px 24px;
+    background-color: #A51C30;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-us button:hover {
+    background-color: #871B35;
+}
+.additional-info {
+    margin-top: 20px;
+}
+
+.additional-info p {
+    color: #555;
+}
+

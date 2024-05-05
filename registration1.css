@@ -1,0 +1,50 @@
+/* ... (previous CSS code) ... */
+
+.course-registration {
+    padding: 2em;
+    text-align: justify;
+}
+
+.course-registration form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.course-registration label {
+    display: block;
+    margin-bottom: 8px;
+    color: #A51C30;
+}
+
+.course-registration input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.course-registration button {
+    padding: 14px 30px;
+    background-color: #A51C30;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.course-registration button:hover {
+    background-color: #871B35;
+}
+.additional-info {
+    margin-top: 20px;
+}
+
+.additional-info p {
+    color: #555;
+}

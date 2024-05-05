@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #B22222; /* Harvard Crimson color */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Dashboard Section Styles */
+.dashboard-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-section h2 {
+    color: #B22222; /* Harvard Crimson color */
+}
+
+.upcoming-events {
+    margin-top: 20px;
+}
+
+.event-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.event-date {
+    font-weight: bold;
+    color: #B22222; /* Harvard Crimson color */
+}
+
+.event-item h4 {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}

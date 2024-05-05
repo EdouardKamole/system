@@ -1,0 +1,26 @@
+/* Add styles for the Library section if needed */
+
+.library-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.library-section h2 {
+    color: #c8102e;
+}
+
+.book {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    color: #333;
+}
+
+.book p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Management Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/mine11.jpg" alt="School Logo">
+        <h1>School Management Application</h1>
+        <p>Parents School Technology Connection</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="events.html">Events</a>
+        <a href="parents.html">Parent Portal</a>
+        <a href="contact.html">Contact</a>
+        <a href="student.html">Student Portal</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Welcome to Our School!</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus.
+            </p>
+        </section>
+
+        <section id="latest-news">
+            <h2>Latest News</h2>
+            <!-- News items will be dynamically added here -->
+        </section>
+
+        <section>
+            <h2>Parent Portal</h2>
+            <p>
+                Log in to our Parent Portal to access your child's grades, attendance, and other important information.
+            </p>
+            <div class="button-container">
+                <a href="login.html" class="styled-button">Log In</a>
+                <a href="signUp.html" class="styled-button">Sign Up</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 School Management Application
+    </footer>
+
+    <script>
+        // Highlight active link in navigation bar
+        function highlightActiveLink() {
+            var currentPage = window.location.href;
+            var navLinks = document.querySelectorAll('nav a');
+
+            navLinks.forEach(function(link) {
+                if (link.href === currentPage) {
+                    link.classList.add('current');
+                }
+            });
+        }
+
+        // Call the function when the page loads
+        window.onload = highlightActiveLink;
+
+        // Fetch latest news data from JSON file
+        fetch('news.json')
+            .then(response => response.json())
+            .then(data => {
+                var newsSection = document.querySelector('#latest-news');
+
+                data.forEach(function(item) {
+                    var newsItem = document.createElement('div');
+                    newsItem.classList.add('news-item');
+                    newsItem.innerHTML = `
+                        <h3>${item.title}</h3>
+                        <p>${item.description}</p>
+                    `;
+                    newsSection.appendChild(newsItem);
+                });
+            })
+            .catch(error => console.error('Error fetching news data:', error));
+
+        // Form validation for sign-up form
+        function validateSignUpForm() {
+            var form = document.getElementById('sign-up-form');
+            var inputs = form.querySelectorAll('input[type="text"], input[type="email"], input[type="password"]');
+            var isValid = true;
+
+            inputs.forEach(function(input) {
+                if (input.value.trim() === '') {
+                    isValid = false;
+                    input.classList.add('error');
+                } else {
+                    input.classList.remove('error');
+                }
+            });
+
+            if (!isValid) {
+                alert('Please fill out all required fields.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

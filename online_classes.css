@@ -1,0 +1,25 @@
+/* ... (previous CSS code) ... */
+
+.online-classes {
+    padding: 2em;
+    text-align: justify;
+}
+
+.class-links {
+    margin-top: 20px;
+}
+
+.class-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #A51C30;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.class-link:hover {
+    background-color: #871B35;
+}

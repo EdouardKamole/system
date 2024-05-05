@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="registration1.css">
+    <title>Course Registration - Your School</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <img src="images/mine11.jpg" alt="Cs-Ai Master Logo">
+            <h1>Your School</h1>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-btn">Home</a></li>
+            <li><a href="student.html" class="nav-btn">Student Portal</a></li>
+            <li><a href="registration1.html" class="nav-btn active">Course Registration</a></li>
+            <li><a href="contact.html" class="nav-btn">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Course Registration Form -->
+    <section class="course-registration">
+        <h2>Course Registration</h2>
+        <p>Choose your courses for the upcoming semester:</p>
+
+        <!-- Course Registration Form -->
+        <form action="submit_registration.php" method="post">
+            <div class="form-group">
+                <label for="course1">Course 1:</label>
+                <input type="text" id="course1" name="course1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course2">Course 2:</label>
+                <input type="text" id="course2" name="course2" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course3">Course 3:</label>
+                <input type="text" id="course3" name="course3" required>
+            </div>
+            <div class="form-group">
+                <label for="course4">Course 4:</label>
+                <input type="text" id="course3" name="course3" required>
+            </div>
+            <div class="form-group">
+                <label for="course5">Course 5:</label>
+                <input type="text" id="course3" name="course3" required>
+            </div>
+            <div class="form-group">
+                <label for="course6">Course 6:</label>
+                <input type="text" id="course3" name="course3" required>
+            </div>
+
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <!-- Additional Information -->
+        <div class="additional-info">
+            <p>For assistance with course registration, please contact our Student Services at <a href="tel:+123456789">+1 (234) 567-89</a>.</p>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your School. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

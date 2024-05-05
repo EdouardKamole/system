@@ -1,0 +1,26 @@
+/* Add styles for the Grades section if needed */
+
+.grades-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.grades-section h2 {
+    color: #c8102e;
+}
+
+.grade {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.grade h3 {
+    color: #333;
+}
+
+.grade p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}

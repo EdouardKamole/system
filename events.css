@@ -1,0 +1,70 @@
+/* Events Page Specific Styles */
+
+.events-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.event img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.event-details {
+    flex-grow: 1;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .event {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+/* ... (Previous CSS content) ... */
+
+/* Closing Section Styles */
+
+.closing-section {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+.closing-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.closing-content h2 {
+    color: #333;
+}
+
+.closing-content p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    /* ... (Previous responsive styles) ... */
+
+    .closing-content {
+        text-align: left;
+    }
+}

@@ -1,0 +1,44 @@
+/* Styling for Exam Results */
+.exam-results {
+    margin-top: 30px;
+}
+
+.exam-results h2 {
+    color: #A51C30;
+}
+
+.result-item {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
+
+.result-details {
+    margin-left: 20px;
+}
+
+.result-details h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.result-details p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Additional Styles for Each Result */
+.result-item:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+.result-item:nth-child(even) {
+    background-color: #FFFFFF;
+}
+.result-item:nth-child(odd) {
+    background-color: #F6F6F6;
+}
+
+.result-item:nth-child(even) {
+    background-color: #FFFFFF;
+}
+

@@ -1,0 +1,43 @@
+/* Styling for Academic Calendar */
+.academic-calendar {
+    margin-top: 30px;
+}
+
+.academic-calendar h2 {
+    color: #A51C30;
+}
+
+.calendar-item {
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 20px 0;
+}
+
+.date {
+    flex: 0 0 60px;
+    text-align: center;
+}
+
+.month {
+    color: #A51C30;
+    font-size: 1.2em;
+}
+
+.day {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.event-details {
+    margin-left: 20px;
+}
+
+.event-details h3 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    color: #333;
+    margin-bottom: 0;
+}
